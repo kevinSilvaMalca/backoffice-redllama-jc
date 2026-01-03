@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "url_permantlies",
+  "info": {
+    "singularName": "url-permantly",
+    "pluralName": "url-permantlies",
+    "displayName": "url-permantly",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "fileUrl": {
+      "type": "string"
+    },
+    "urlqrpermanent": {
+      "type": "string"
+    }
+  }
+}
