@@ -48,7 +48,7 @@ services:
       MYSQL_PASSWORD: ${DATABASE_PASSWORD}
       MYSQL_DATABASE: ${DATABASE_NAME}
     volumes:
-      - /usr/local/volumes/strapi333/mysql/data:/var/lib/mysql
+      - /usr/local/volumes/strapiDBredllama/mysql/data:/var/lib/mysql
       #- ./data:/var/lib/mysql # if you want to use a bind folder
     ports:
       - "3306:3306"
